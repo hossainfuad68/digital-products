@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+/*Nav Style*/
+nav{
+    display: flex;
+    background-color: rgb(43, 43, 43);
+    justify-content: space-between;
+}
+.white-logo img{
+    padding: 10px 00px 10px 250px;
+    height: 50px; 
+}
+.manu-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-right:250px ;
+    padding-top:25px ;
+}
+.manu-bar li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 700;
+    
+}
+.manu-bar li a:hover{
+    background-color: rgb(175, 175, 175);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+/*benner style*/
+
+ .benner{
+    
+    padding: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,#202020 ,#000000);
+
+}
+.title{
+    font-size: 100px;
+    color: aliceblue;
+    margin-bottom: 20PX;
+}
+.first-dis{
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.primary-btn{
+    color: aliceblue;
+    background-color: rgb(255, 0, 51);
+    padding: 20px 30px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px rgba(255, 89, 89, 0.425);
+}
+
+
+
+
+.man img{
+    width: 350px;
+}
+
