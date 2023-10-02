@@ -44,7 +44,7 @@ nav{
     linear-gradient(45deg,#202020 ,#000000);
 
 }
-.title{
+.benner-title{
     font-size: 100px;
     color: aliceblue;
     margin-bottom: 20PX;
@@ -64,10 +64,39 @@ nav{
     box-shadow: 5px 5px 10px rgba(255, 89, 89, 0.425);
 }
 
-
-
-
 .man img{
     width: 350px;
 }
 
+/*section-02*/
+.part-two{
+    padding: 50px 200px;
+    background-color: rgba(250, 235, 215, 0.363);
+}
+.title{
+    font-size: 80px;
+    text-align: center;
+    margin: 30px;
+}
+
+.man-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sitting-man img{
+    width: 350px;
+}
+
+.sub-title{
+    font-size: 30px;
+    font-weight:1000;
+    margin-bottom: 10px;
+}
+.dis-lis{
+    list-style: none;
+    color: #202020;
+    margin-bottom: 10px;
+
+}
