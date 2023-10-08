@@ -41,7 +41,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-image: url("./images/background.png"),
-    linear-gradient(45deg,#202020 ,#000000);
+    linear-gradient(45deg,#0e0d0d ,#2e2d2d);
 
 }
 .benner-title{
@@ -99,4 +99,85 @@ nav{
     color: #202020;
     margin-bottom: 10px;
 
+}
+/*part-three*/
+.part-three{
+    padding: 50px 200px;
+    background-color: #2a2a2b;
+}
+.part-three > h1{
+    color: white;
+    margin-bottom: 100px;
+}
+
+.Boxes{
+    display: flex;
+    justify-content: space-evenly;
+   
+    gap:300px;
+    
+    
+}
+.box{
+    background-color: #464545;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(214, 214, 214, 0.432);
+    text-align: center;
+
+}
+
+
+.box img,.service-sub-title,.service-discription{
+    margin-bottom:10px ;
+}
+.box img{
+    width: 100px;
+}
+.service-sub-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.service-discription{
+    color: aliceblue;
+}
+.detail-btn{
+    padding: 10px 20px;
+    background-color: #0e0d0d;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(105, 105, 105);
+}
+/*footer*/
+footer{
+    background-color: #0e0d0d;
+    color: white;
+    padding: 100px 200px;
+}
+.part-four{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-contain ,.footer-logo{
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.footer-sub-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.info li{
+    list-style: none;
+    margin: 5px;
+}
+
+.last-word{
+    text-align: center;
+    margin-top: 20px;
+    color: red;
 }
